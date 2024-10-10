@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sin categoría &#8211; David Reyes</title>
+	<atom:link href="//category/sin-categoria/feed/" rel="self" type="application/rss+xml" />
+	<link>//</link>
+	<description>Developer</description>
+	<lastBuildDate>Sat, 05 Oct 2024 19:18:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<item>
+		<title>Docker primeros pasos</title>
+		<link>//docker-primeros-pasos/</link>
+		
+		<dc:creator><![CDATA[david]]></dc:creator>
+		<pubDate>Sat, 05 Oct 2024 19:16:42 +0000</pubDate>
+				<category><![CDATA[Sin categoría]]></category>
+		<guid isPermaLink="false">http://localhost:8080/?p=63</guid>
+
+					<description><![CDATA[¿Que es docker? Docker es una plataforma que permite la creación de contenedores los cuales incluyen bibliotecas, herramientas del sistema, código y todo lo necesario para que una aplicación pueda funcionar. Instalación Para poder comenzar con docker, primero se debe instalar Docker Desktop o Docker Engine. Para Docker Desktop se necesita buscar el aplicativo que<div class="more-link">
+				 <a href="//docker-primeros-pasos/" class="link-btn theme-btn"><span>Read More </span> <i class="fa fa-caret-right"></i></a>
+			</div>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="63" class="elementor elementor-63">
+				<div class="elementor-element elementor-element-25f5508 e-flex e-con-boxed e-con e-parent" data-id="25f5508" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-1818fe5 e-con-full e-flex e-con e-child" data-id="1818fe5" data-element_type="container">
+				<div class="elementor-element elementor-element-fd9e960 elementor-widget elementor-widget-heading" data-id="fd9e960" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">¿Que es docker?</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2146cc8 elementor-widget elementor-widget-text-editor" data-id="2146cc8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Docker es una plataforma que permite la creación de contenedores los cuales incluyen bibliotecas, herramientas del sistema, código y todo lo necesario para que una aplicación pueda funcionar.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-20dd152 elementor-widget elementor-widget-heading" data-id="20dd152" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Instalación</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3df3ff1 elementor-widget elementor-widget-text-editor" data-id="3df3ff1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Para poder comenzar con docker, primero se debe instalar Docker Desktop o Docker Engine.</p><p>Para <a href="https://docs.docker.com/get-started/get-docker/">Docker Desktop</a> se necesita buscar el aplicativo que sea compatible con tu sistema operativo.</p><p>Para <a href="https://docs.docker.com/engine/install/">Docker Engine</a> se necesita borrar los paquetes incompatibles en tu sistema operativo antes de poder instalar Docker Engine.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c26c891 elementor-widget elementor-widget-heading" data-id="c26c891" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Imagenes</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-171e5a0 elementor-widget elementor-widget-text-editor" data-id="171e5a0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Lo primero que se tiene que descargar son las imágenes para los contenedores, estas imágenes son plantillas que contienen instrucciones a la hora de crear un contenedor, en ellas se incluyen librerías y versiones de las mismas.</p><p>Se puede buscar imágenes específicas gracias a que Docker mantiene un registro publico de varias empresas que han creado imágenes para contenedores. Podemos buscar en <a href="https://hub.docker.com/">Docker Hub</a> o utilizar el comando:</p>						</div>
+				</div>
+		<div class="elementor-element elementor-element-445cf06 e-con-full e-flex e-con e-child" data-id="445cf06" data-element_type="container">
+				<div class="elementor-element elementor-element-babd89b elementor-widget elementor-widget-html" data-id="babd89b" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<code>docker search 'nombre a buscar' // docker search node</code>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b41eb35 elementor-widget elementor-widget-text-editor" data-id="b41eb35" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Una vez encontrada la imagen que vamos a utilizar hace falta descargar dicha imagen a nuestra computadora, para eso se puede utilizar el comando:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-83b937b elementor-widget elementor-widget-html" data-id="83b937b" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<code>docker pull 'nombre de la imagen' // docker pull node</code>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6e80a34 elementor-widget elementor-widget-text-editor" data-id="6e80a34" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Esto se puede realizar en Docker Desktop de forma visual usando el buscador de Docker Desktop y solo seleccionando la imagen que deseamos.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c3b09a0 elementor-widget elementor-widget-heading" data-id="c3b09a0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Contenedores</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5ff9023 elementor-widget elementor-widget-text-editor" data-id="5ff9023" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Para la creación de los contenedores, una vez realizada la descarga de la imagen a utilizar, necesitaremos correr la imagen (se pueden tener varios contenedores de una misma imagen). Para hacer esto podemos usar el comando:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8599780 elementor-widget elementor-widget-html" data-id="8599780" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<code>docker run --name 'nombre del contenedor' -d 'nombre de la imagen' // docker run --name contenedor-node -d node</code>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fe52817 elementor-widget elementor-widget-text-editor" data-id="fe52817" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Es importante mencionar que la bandera -d indica que corra el servidor como &#8216;demonio&#8217; para que no ate la terminal donde se esta realizando el comando al Shell del nuevo contenedor.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-70593e5 elementor-widget elementor-widget-heading" data-id="70593e5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Acciones para el contenedor</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ed6f69e elementor-widget elementor-widget-text-editor" data-id="ed6f69e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>En este punto ya tendremos nuestro contenedor corriendo y estaremos listos para poder usar el contenedor en el cual trabajar para crear nuestras aplicaciones.</p><p>Para saber el estatus de nuestro contenedor podemos usar el comando:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a2a2da6 elementor-widget elementor-widget-html" data-id="a2a2da6" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<code>docker ps -a</code>		</div>
+				</div>
+				<div class="elementor-element elementor-element-94e3284 elementor-widget elementor-widget-text-editor" data-id="94e3284" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Con la bandera -a estamos listando todos los contenedores que hemos creado y ver el estado en el que se encuentra.</p><p>Para poder detener un contenedor específico se utilizará el comando:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-571ead0 elementor-widget elementor-widget-html" data-id="571ead0" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<code>docker stop 'nombre del contenedor' // docker stop contenedor-node</code>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1d43435 elementor-widget elementor-widget-text-editor" data-id="1d43435" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Se puede utilizar el nombre o el id que se haya creado a la hora de iniciar el contenedor.</p><p>Para poder iniciar de nuevo un contenedor se necesitara usar el comando:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-01d6f42 elementor-widget elementor-widget-html" data-id="01d6f42" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<code>docker start 'nombre del contenedor' // docker start contenedor-node</code>		</div>
+				</div>
+				<div class="elementor-element elementor-element-38a47bc elementor-widget elementor-widget-text-editor" data-id="38a47bc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Se puede utilizar el nombre o el id que se haya creado a la hora de iniciar el contenedor.</p><p>Para poder borrar un contenedor, primero se necesita detener dicho contenedor y después se podrá borrar con el comando:</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c3c69da elementor-widget elementor-widget-html" data-id="c3c69da" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<code>docker rm 'nombre del contenedor' // docker rm contenedor-node</code>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3460061 elementor-widget elementor-widget-heading" data-id="3460061" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Conclusiones</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-47e9b2e elementor-widget elementor-widget-text-editor" data-id="47e9b2e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Docker ayuda a tener aplicaciones independientes del host, lo que facilita la corrección de errores en las aplicaciones sin afectar el host directamente.</p>						</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
