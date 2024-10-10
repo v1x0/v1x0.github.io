@@ -9,8 +9,8 @@
 
 <channel>
 	<title>david &#8211; David Reyes</title>
-	<atom:link href="/personal/author/david/feed/" rel="self" type="application/rss+xml" />
-	<link>/personal/</link>
+	<atom:link href="/page/personal/author/david/feed/" rel="self" type="application/rss+xml" />
+	<link>/page/personal/</link>
 	<description>Developer</description>
 	<lastBuildDate>Sat, 05 Oct 2024 19:18:43 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=6.6.2</generator>
 	<item>
 		<title>Docker primeros pasos</title>
-		<link>/personal/docker-primeros-pasos/</link>
+		<link>/page/personal/docker-primeros-pasos/</link>
 		
 		<dc:creator><![CDATA[david]]></dc:creator>
 		<pubDate>Sat, 05 Oct 2024 19:16:42 +0000</pubDate>
@@ -29,7 +29,7 @@
 		<guid isPermaLink="false">http://localhost:8080/?p=63</guid>
 
 					<description><![CDATA[¿Que es docker? Docker es una plataforma que permite la creación de contenedores los cuales incluyen bibliotecas, herramientas del sistema, código y todo lo necesario para que una aplicación pueda funcionar. Instalación Para poder comenzar con docker, primero se debe instalar Docker Desktop o Docker Engine. Para Docker Desktop se necesita buscar el aplicativo que<div class="more-link">
-				 <a href="/personal/docker-primeros-pasos/" class="link-btn theme-btn"><span>Read More </span> <i class="fa fa-caret-right"></i></a>
+				 <a href="/page/personal/docker-primeros-pasos/" class="link-btn theme-btn"><span>Read More </span> <i class="fa fa-caret-right"></i></a>
 			</div>]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="63" class="elementor elementor-63">
 				<div class="elementor-element elementor-element-25f5508 e-flex e-con-boxed e-con e-parent" data-id="25f5508" data-element_type="container">

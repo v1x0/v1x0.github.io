@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for David Reyes	</title>
-	<atom:link href="/personal/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/personal/</link>
+	<atom:link href="/page/personal/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/page/personal/</link>
 	<description>Developer</description>
 	<lastBuildDate>Thu, 10 Oct 2024 18:40:10 +0000</lastBuildDate>
 	<sy:updatePeriod>
