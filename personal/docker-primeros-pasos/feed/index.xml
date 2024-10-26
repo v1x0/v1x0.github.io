@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Docker primeros pasos	</title>
-	<atom:link href="/page/personal/docker-primeros-pasos/feed/" rel="self" type="application/rss+xml" />
-	<link>/page/personal/docker-primeros-pasos/</link>
+	<atom:link href="/personal/docker-primeros-pasos/feed/" rel="self" type="application/rss+xml" />
+	<link>/personal/docker-primeros-pasos/</link>
 	<description>Developer</description>
 	<lastBuildDate>Sat, 05 Oct 2024 19:18:43 +0000</lastBuildDate>
 	<sy:updatePeriod>
