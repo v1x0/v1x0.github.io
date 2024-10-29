@@ -12,7 +12,7 @@
 	<atom:link href="/personal/category/sin-categoria/feed/" rel="self" type="application/rss+xml" />
 	<link>/personal/</link>
 	<description>Developer</description>
-	<lastBuildDate>Sat, 05 Oct 2024 19:18:43 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 16 Oct 2024 17:30:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,84 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.2</generator>
 	<item>
+		<title>Detección de cambios en angular</title>
+		<link>/personal/deteccion-de-cambios-en-angular/</link>
+					<comments>/personal/deteccion-de-cambios-en-angular/#respond</comments>
+		
+		<dc:creator><![CDATA[david]]></dc:creator>
+		<pubDate>Wed, 16 Oct 2024 17:30:23 +0000</pubDate>
+				<category><![CDATA[Sin categoría]]></category>
+		<guid isPermaLink="false">http://localhost:8080/?p=139</guid>
+
+					<description><![CDATA[Optimizar Rendimiento En computación siempre es recomendable optimizar los recursos que se tienen disponibles para poder crear una aplicación eficiente, segura y rápida. En angular, un paso para poder crear una aplicación optimizada es comprender la detección de los cambios que utilizar angular.  Esto ayudará a la disminución del tiempo de espera para tener una<div class="more-link">
+				 <a href="/personal/deteccion-de-cambios-en-angular/" class="link-btn theme-btn"><span>Read More </span> <i class="fa fa-caret-right"></i></a>
+			</div>]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="139" class="elementor elementor-139">
+				<div class="elementor-element elementor-element-d4f804d e-flex e-con-boxed e-con e-parent" data-id="d4f804d" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d7ce572 elementor-widget elementor-widget-heading" data-id="d7ce572" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Optimizar Rendimiento</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9ba1f22 elementor-widget elementor-widget-text-editor" data-id="9ba1f22" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>En computación siempre es recomendable optimizar los recursos que se tienen disponibles para poder crear una aplicación eficiente, segura y rápida.</p><p>En angular, un paso para poder crear una aplicación optimizada es comprender la detección de los cambios que utilizar angular.  Esto ayudará a la disminución del tiempo de espera para tener una página cargada.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-bd5c3a0 elementor-widget elementor-widget-text-editor" data-id="bd5c3a0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>La detección de cambios en angular ocurre de forma transparente para el programador ya que angular se encarga por defecto de hacer esa detección y renderizar la página al ocurrir algún cambio. Esta forma es muy útil para pequeños proyectos y facilita el desarrollo, pero se vuelve un problema a la hora de crear un gran proyecto que contenga demasiados componentes en una sola página, al dejar que angular se encargue de esa parte ocasiona que la pagina se vuelva lenta.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-cb26464 elementor-widget elementor-widget-heading" data-id="cb26464" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Como funciona la detección de los cambios</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-cddae4d elementor-widget elementor-widget-text-editor" data-id="cddae4d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Cuando un componente actualiza un estado, una propiedad o una variable en angular, lo que sucede es que se ejecuta la estrategia de angular para revisar el estado de todos los componentes y poder mostrar la pagina de forma correcta, el problema viene en que por defecto angular checa todos los componentes que se encuentren en el árbol de componentes, hacer esto es tardado y en ocasiones innecesario.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-5684959 elementor-widget elementor-widget-image" data-id="5684959" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" src="http://localhost:8080/wp-content/uploads/2024/10/Screen-Shot-2024-10-16-at-11.04.32.png" title="" alt="" loading="lazy" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-22ad127 elementor-widget elementor-widget-heading" data-id="22ad127" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Change Detection</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-653b59d elementor-widget elementor-widget-text-editor" data-id="653b59d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Nosotros podemos indicar que un componente sea omitido a la hora de detectar cambios utilizando la propiedad changeDetection a OnPush, con esto la comprobación del estado del componente será omitido a la hora de que algún otro componente realice un cambio en su estado.						</div>
+				</div>
+				<div class="elementor-element elementor-element-60ceaf9 elementor-widget elementor-widget-text-editor" data-id="60ceaf9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							@Component({<br/>
+//&#8230;.
+changeDetection: <br /><b>ChangeDetectionStrategy.OnPush</b><br/>
+//&#8230;
+})						</div>
+				</div>
+				<div class="elementor-element elementor-element-4cd6690 elementor-widget elementor-widget-text-editor" data-id="4cd6690" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Al cambiar la estrategia, ahora el componente no se actualizara ni se comprobara su estado a la hora de que otro componente haga algún cambio. Solo se actualizará cuando se actualice algún input del componente.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6ca89db elementor-widget elementor-widget-heading" data-id="6ca89db" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Conclusiones</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b784fc7 elementor-widget elementor-widget-text-editor" data-id="b784fc7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Este cambio de estrategia es muy útil para el rendimiento de una aplicación, sin embargo nos obliga a revisar el momento en que un componente debe actualizar su estado.</p><p><a href="https://angular.dev/best-practices/skipping-subtrees">Change Detection Angular</a></p>						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/personal/deteccion-de-cambios-en-angular/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Docker primeros pasos</title>
 		<link>/personal/docker-primeros-pasos/</link>
 		
